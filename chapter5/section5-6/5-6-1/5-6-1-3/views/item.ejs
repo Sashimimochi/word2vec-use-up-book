@@ -1,0 +1,16 @@
+<table class="table table-striped">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">word</th>
+            <th scope="col">similality</th>
+        </tr>
+    </thead>
+    <tbody>
+        <% for (let item of items) { %>
+        <tr>
+            <td><%- item.word %></td>
+            <td><%- item.dist %></td>
+        </tr>
+        <% } %>
+    </tbody>
+</table>

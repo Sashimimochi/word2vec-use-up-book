@@ -1,0 +1,16 @@
+{
+  "name": "5-6-1",
+  "version": "1.0.0",
+  "description": "use word2vec by node",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Toshiki Nagasaki",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "word2vec": "^1.1.5"
+  }
+}

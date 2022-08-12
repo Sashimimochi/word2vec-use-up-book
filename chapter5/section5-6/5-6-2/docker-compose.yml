@@ -1,0 +1,13 @@
+version: '3'
+services:
+  golang:
+    build: .
+    container_name: 'golang'
+    tty: true
+    environment:
+      TZ: Asia/Tokyo
+    volumes:
+      - ".:/go/src/app"
+    working_dir: /go/src/app
+    ports:
+      - 5000:5000
